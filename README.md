@@ -3,6 +3,9 @@
 一款为创作者打造的本地化、注重隐私的 YouTube 数据分析复盘工具。它能将从 YouTube Studio 导出的 CSV 数据转化为战略增长报告，帮助创作者了解是什么在驱动播放量、订阅量、包装表现（标题/封面）以及可复制的内容模式。
 
 该应用通过 Python 在本地运行，不会将分析数据上传到任何第三方服务。
+<img width="2560" height="1294" alt="image" src="https://github.com/user-attachments/assets/7e41a253-a20e-4720-b03e-e1a48ce0fb51" />
+<img width="2560" height="1294" alt="image" src="https://github.com/user-attachments/assets/83c54a98-7597-4bc1-86c9-3c83f4b2a9fd" />
+<img width="2560" height="1294" alt="image" src="https://github.com/user-attachments/assets/a012c83a-ba5b-4f3c-b910-d1f7d1f5f2ea" />
 
 ## 功能特点
 
