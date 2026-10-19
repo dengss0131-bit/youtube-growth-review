@@ -42,7 +42,8 @@ youtube-growth-review/
 ├── examples/
 │   └── sample_youtube_analytics.csv
 ├── docs/
-│   └── export-youtube-analytics.md
+│   ├── export-youtube-analytics.md
+│   └── user-guide-zh.md
 ├── tests/
 │   └── test_parser.py
 ├── youtube_growth_review_server.py
@@ -65,6 +66,11 @@ Then open:
 ```text
 http://127.0.0.1:8765
 ```
+
+## Documentation
+
+- [中文完整使用教程](docs/user-guide-zh.md)
+- [Export YouTube Analytics CSV](docs/export-youtube-analytics.md)
 
 ## Using the sample data
 
