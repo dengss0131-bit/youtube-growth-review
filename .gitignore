@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Private analytics exports
+*.csv
+*.tsv
+*.xlsx
+*.xls
+!examples/sample_youtube_analytics.csv
+
+# Local workspace / assistant files
+.workbuddy-ai/
+outputs/
+clipboard-images/
