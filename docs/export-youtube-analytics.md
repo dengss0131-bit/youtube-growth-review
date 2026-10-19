@@ -1,43 +1,43 @@
-# Export YouTube Analytics CSV
+# 导出 YouTube 数据分析 CSV
 
-This guide explains how to export video-level analytics data from YouTube Studio for use with YouTube Growth Review Tool.
+本指南介绍了如何从 YouTube Studio（创作者工作室）导出视频级别的数据分析，以便在 YouTube 频道增长复盘工具中使用。
 
-## Recommended export
+## 推荐的导出步骤
 
-1. Open YouTube Studio.
-2. Go to **Analytics**.
-3. Open **Advanced mode** or **See more**.
-4. Choose a date range, such as the last 7, 28, or 90 days.
-5. Set the primary dimension to **Video**.
-6. Export the current view as CSV.
-7. Upload or paste the CSV into the local review tool.
+1. 打开 YouTube Studio（创作者工作室）。
+2. 进入左侧菜单的 **数据分析 (Analytics)**。
+3. 点击右上角的 **高级模式 (Advanced mode)** 或图表下方的 **查看更多 (See more)**。
+4. 选择一个日期范围，例如过去 7 天、28 天或 90 天。
+5. 确保主要维度设置为 **视频 (Video)**（通常默认即是此项）。
+6. 点击右上角的“导出”图标（向下箭头），选择 **导出当前视图为逗号分隔值 (.csv)**。
+7. 将下载好的 CSV 文件上传或粘贴到本地的复盘工具中。
 
-## Useful columns
+## 推荐包含的数据列
 
-The tool works best when the export includes these fields:
+当导出的 CSV 包含以下字段时，本工具的分析效果最佳：
 
-| Field | Purpose |
+| 字段 (Field) | 作用 (Purpose) |
 |---|---|
-| Video title | Identify the video and analyze title patterns |
-| Views | Measure reach |
-| Subscribers | Measure subscriber conversion |
-| Thumbnail impressions | Measure recommendation opportunity |
-| Thumbnail click-through rate (%) | Measure title/thumbnail packaging |
-| Watch time (hours) | Estimate average view duration |
-| Duration | Estimate average retention |
-| Comments | Measure discussion depth |
-| Likes | Measure positive feedback |
-| Video publish time | Compare publishing periods |
+| Video title (视频标题) | 识别视频并分析标题模式 |
+| Views (观看次数) | 衡量触达范围 |
+| Subscribers (订阅人数) | 衡量受众订阅转化能力 |
+| Thumbnail impressions (缩略图展示次数) | 衡量系统推荐机会与曝光 |
+| Thumbnail click-through rate (%) (缩略图点击率) | 衡量标题/封面的包装吸引力 |
+| Watch time (hours) (观看时长 - 小时) | 用于估算平均观看时长 |
+| Duration (视频时长) | 用于估算平均留存率 |
+| Comments (评论数) | 衡量观众讨论深度 |
+| Likes (点赞数) | 衡量观众正向反馈 |
+| Video publish time (发布时间) | 用于对比不同发布周期的表现 |
 
-## Optional manual fields
+## 可选的手动添加字段
 
-You can add these fields manually for better strategy analysis:
+为了获得更深度的内容策略分析报告，您可以打开导出的 CSV 文件，手动添加以下列和标签：
 
-| Field | Example |
+| 字段 (Field) | 示例标签 (Example) |
 |---|---|
-| topic | AI productivity, open-source tools, creator workflow |
-| series | Tool review, tutorial, growth analysis |
-| thumbnail_type | comparison table, bold text, product screenshot |
-| hook_type | real test, problem diagnosis, conclusion first |
+| topic (题材/主题) | AI 生产力、开源工具、创作者工作流 |
+| series (系列/栏目) | 工具测评、新手教程、增长分析 |
+| thumbnail_type (封面类型) | 对比图表、醒目大字、产品截图 |
+| hook_type (开头钩子类型) | 真实测试、问题诊断、结论前置 |
 
-If these fields are missing, the tool will infer rough categories from the title.
+*注：如果您觉得手动打标签太麻烦，可以直接留空。工具会自动根据视频标题粗略推断并进行分类。*
