@@ -1,43 +1,43 @@
-# 导出 YouTube 数据分析 CSV
+# 导出 YouTube Analytics 数据
 
-本指南介绍了如何从 YouTube Studio（创作者工作室）导出视频级别的数据分析，以便在 YouTube 频道增长复盘工具中使用。
+本指南说明如何从 YouTube Studio 导出视频级分析数据，供复盘工具使用。
 
-## 推荐的导出步骤
+## 推荐导出方式
 
-1. 打开 YouTube Studio（创作者工作室）。
-2. 进入左侧菜单的 **数据分析 (Analytics)**。
-3. 点击右上角的 **高级模式 (Advanced mode)** 或图表下方的 **查看更多 (See more)**。
-4. 选择一个日期范围，例如过去 7 天、28 天或 90 天。
-5. 确保主要维度设置为 **视频 (Video)**（通常默认即是此项）。
-6. 点击右上角的“导出”图标（向下箭头），选择 **导出当前视图为逗号分隔值 (.csv)**。
-7. 将下载好的 CSV 文件上传或粘贴到本地的复盘工具中。
+1. 打开 YouTube Studio。
+2. 进入 **Analytics / 分析**。
+3. 打开 **Advanced mode / 查看更多**。
+4. 选择时间范围，例如最近 7 天、28 天或 90 天。
+5. 将主维度设置为 **Video / 视频**。
+6. 将当前视图导出为 CSV。
+7. 将 CSV 上传或粘贴到本地复盘工具。
 
-## 推荐包含的数据列
+## 推荐导出的字段
 
-当导出的 CSV 包含以下字段时，本工具的分析效果最佳：
+工具在导出包含以下字段时效果最佳：
 
-| 字段 (Field) | 作用 (Purpose) |
+| 字段 | 用途 |
 |---|---|
-| Video title (视频标题) | 识别视频并分析标题模式 |
-| Views (观看次数) | 衡量触达范围 |
-| Subscribers (订阅人数) | 衡量受众订阅转化能力 |
-| Thumbnail impressions (缩略图展示次数) | 衡量系统推荐机会与曝光 |
-| Thumbnail click-through rate (%) (缩略图点击率) | 衡量标题/封面的包装吸引力 |
-| Watch time (hours) (观看时长 - 小时) | 用于估算平均观看时长 |
-| Duration (视频时长) | 用于估算平均留存率 |
-| Comments (评论数) | 衡量观众讨论深度 |
-| Likes (点赞数) | 衡量观众正向反馈 |
-| Video publish time (发布时间) | 用于对比不同发布周期的表现 |
+| Video title | 识别视频并分析标题模式 |
+| Views | 衡量触达 |
+| Subscribers | 衡量订阅转化 |
+| Thumbnail impressions | 衡量推荐机会 |
+| Thumbnail click-through rate (%) | 衡量标题/缩略图包装 |
+| Watch time (hours) | 反推平均观看时长 |
+| Duration | 反推平均完播率 |
+| Comments | 衡量讨论深度 |
+| Likes | 衡量正向反馈 |
+| Video publish time | 对比发布时间段 |
 
-## 可选的手动添加字段
+## 可选手动补充字段
 
-为了获得更深度的内容策略分析报告，您可以打开导出的 CSV 文件，手动添加以下列和标签：
+你可以手动添加以下字段，以获得更准确的策略分析：
 
-| 字段 (Field) | 示例标签 (Example) |
+| 字段 | 示例 |
 |---|---|
-| topic (题材/主题) | AI 生产力、开源工具、创作者工作流 |
-| series (系列/栏目) | 工具测评、新手教程、增长分析 |
-| thumbnail_type (封面类型) | 对比图表、醒目大字、产品截图 |
-| hook_type (开头钩子类型) | 真实测试、问题诊断、结论前置 |
+| topic | AI productivity、open-source tools、creator workflow |
+| series | Tool review、tutorial、growth analysis |
+| thumbnail_type | comparison table、bold text、product screenshot |
+| hook_type | real test、problem diagnosis、conclusion first |
 
-*注：如果您觉得手动打标签太麻烦，可以直接留空。工具会自动根据视频标题粗略推断并进行分类。*
+如果缺少这些字段，工具会根据标题推断粗略分类。
