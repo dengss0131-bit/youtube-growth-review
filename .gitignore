@@ -16,7 +16,7 @@ Thumbs.db
 *.tsv
 *.xlsx
 *.xls
-!examples/sample_youtube_analytics.csv
+!examples/sample_*.csv
 
 # Generated files
 outputs/
